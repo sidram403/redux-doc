@@ -30,3 +30,11 @@ Let's compare the left and right parts of the scenario with the entities in a ca
 3. Shopkeeper Providing Receipt:
 - Redux Equivalent: Side Effects or Middleware
 - Explanation: Providing a receipt to the customer can be likened to side effects or middleware in Redux. It's an additional action that occurs in response to a primary action (buying a cake) and doesn't directly affect the state but helps to keep track of events.
+
+## In this comparison, we can see how the entities and actions in a cake shop scenario align with the core concepts of Redux.
+![output](../Assets/corecomp.png)
+
+# Now, it's time to know Three Core Concepts
+## 1. Store : That holds the state of the application.
+## 2. Action : That describes the changes in the state of the application.
+## 3. Reducer : Which actually carries out the state transition depending on the action.
