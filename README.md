@@ -31,7 +31,8 @@ This combination is particularly well-suited for building large and complex appl
 - In React components connected to the Redux store, developers can dispatch actions using action creators, which are functions that return plain JavaScript objects describing the action.
 - These actions are then dispatched to the Redux store, where they are processed by reducers to update the application state.
 
-
+# Let's explore more about Redux
+## 1. [Three Core Concepts of Redux](Core_Concepts/concepts.md)
 
 
 
