@@ -6,6 +6,8 @@ Maintain application state in a single object which would be managed by the Redu
 
 ### Example :
 Let's assume we are tracking the number of cakes on the shelf
+```
  {
 	   NumberOfCakes:10
  }
+```
