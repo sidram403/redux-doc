@@ -11,6 +11,9 @@ Redux is a predictable state management for Javascript Apps
 
 **3. Redux is Predictable :** Redux provides a predictable pattern for managing application state. This predictability is crucial for maintaining the stability and reliability of complex JavaScript applications, especially as they scale in size and complexity.
 
+# Let's understand React + Redux
+![React + Redux](./Assets/react-redux.png)
+
 
 
 
