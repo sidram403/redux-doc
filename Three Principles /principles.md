@@ -32,9 +32,9 @@ Shopkeeper is the reducer here
 ```
 const reducer = (state,action) => {
 	switch(ation.type){
-		case BUY_CAKE : return {
-		numOfCakes : state.numOfCakes - 1
-		}
+           case BUY_CAKE : return {
+           numOfCakes : state.numOfCakes - 1
+           }
 	}
 }
 ```
