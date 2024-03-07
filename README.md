@@ -17,6 +17,21 @@ By combining React for building UI components and Redux for managing application
 
 This combination is particularly well-suited for building large and complex applications where state management can become challenging.
 
+# When React and Redux are used together ?
+
+## 1. Component State vs. Application State : 
+- React components can manage their own local state using `useState` or `useReducer` hooks.
+- However, for application-wide state that needs to be shared across multiple components, Redux provides a centralized store.
+
+## 2. Connecting React Components to Redux :
+- React components can connect to the Redux store using the `connect` function provided by the `react-redux` library.
+- This function creates a higher-order component that subscribes to the Redux store and passes down the relevant state and actions as props to the wrapped component.
+
+## 3. Dispatching Actions :
+- In React components connected to the Redux store, developers can dispatch actions using action creators, which are functions that return plain JavaScript objects describing the action.
+- These actions are then dispatched to the Redux store, where they are processed by reducers to update the application state.
+
+
 
 
 
