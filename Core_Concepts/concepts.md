@@ -38,3 +38,5 @@ Let's compare the left and right parts of the scenario with the entities in a ca
 ## 1. Store : That holds the state of the application.
 ## 2. Action : That describes the changes in the state of the application.
 ## 3. Reducer : Which actually carries out the state transition depending on the action.
+
+# [Next Conecpt](../Three_Principles/principle.md)
