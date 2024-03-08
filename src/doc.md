@@ -157,3 +157,22 @@ store.dispatch(buyIceCream());
 unsubscribe();
  
 ```
+
+# Middleware
+- Is the suggested way to extend Redux with custom functionality.
+- Provides third-party extension point between dispatching an action, and the moment it reaches the reducers.
+- Use middleware for logging, crash reporting, and performing asynchronous tasks etc..
+
+### Middleware setup for loggers:
+```
+npm install redux-logger
+```
+```
+const reduxLogger  = require('redux-logger');
+const applyMiddleware = redux.applyMiddleware;
+const logger = reduxLogger.createLogger()
+
+// no need to add a console log
+const store = createStore(rootReducers, applyMiddleware(logger));
+store.subscribe(() => {});
+```
