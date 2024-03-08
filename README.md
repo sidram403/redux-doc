@@ -34,6 +34,7 @@ This combination is particularly well-suited for building large and complex appl
 # Let's explore more about Redux
 ## 1. [Three Core Concepts of Redux](Core_Concepts/concepts.md)
 ## 2. [Three Principles pf Redux](Three_Principles/principle.md)
+## 3. [Explore more concepts about Redux](./src/doc.md)
 
 
 
