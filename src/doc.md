@@ -176,3 +176,18 @@ const logger = reduxLogger.createLogger()
 const store = createStore(rootReducers, applyMiddleware(logger));
 store.subscribe(() => {});
 ```
+# Redux Thunk(Middleware)
+Thunk middleware for Redux. It allows writing functions with logic inside that can interact with a Redux store's `dispatch` and `getState` methods.
+
+## Installation and Setup
+```
+npm install redux-thunk
+```
+
+```
+import { createStore, applyMiddleware } from 'redux'
+import thunk from 'redux-thunk'
+import rootReducer from './reducers/index'
+
+const store = createStore(rootReducer, applyMiddleware(thunk))
+```
