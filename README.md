@@ -39,9 +39,9 @@ This combination is particularly well-suited for building large and complex appl
 
 
 # Resources
-## Learn from youtube - [https://youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK&si=hzosdLSvGZoaKgoU](https://youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK&si=hzosdLSvGZoaKgoU)
-## Learn from Redux doc - [https://redux.js.org/](https://redux.js.org/introduction/getting-started)
-## Learn from React Redux doc - [https://react-redux.js.org/introduction/getting-started](https://react-redux.js.org/introduction/getting-started)
+### Learn from youtube - [https://youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK&si=hzosdLSvGZoaKgoU](https://youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK&si=hzosdLSvGZoaKgoU)
+### Learn from Redux doc - [https://redux.js.org/](https://redux.js.org/introduction/getting-started)
+### Learn from React Redux doc - [https://react-redux.js.org/introduction/getting-started](https://react-redux.js.org/introduction/getting-started)
 
 
 
